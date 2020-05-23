@@ -13,25 +13,27 @@
           <class name="alak.dutta.testcases.InsightlyLogInTest"/>
     </classes>
   </test> <!-- Test -->
-   
-   <test name="Task Test">
-    <classes>
-          <class name="alak.dutta.testcases.Task.TaskTest"/>
-    </classes>
-  </test> <!-- Test -->
-   
-  <test name="New Task Test">
-    <classes>
-          <class name="alak.dutta.testcases.Task.NewTaskTest"/>
-    </classes>
-  </test> <!-- Test -->
   
-  <test name="Contacts New Task Test">
+   <test name="Contacts Test">
     <classes>
           <class name="alak.dutta.testcases.Task.ContactsTest"/>
     </classes>
   </test> <!-- Test -->
   
+  <test name="Organization Test">
+    <classes>
+          <class name="alak.dutta.testcases.OrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
   
+   <test name="Lead Test">
+    <classes>
+          <class name="alak.dutta.testcases.LeadTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+   
   
 </suite> <!-- Suite -->

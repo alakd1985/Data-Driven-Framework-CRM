@@ -10,9 +10,9 @@ public class NewTaskTest extends TestBase {
 	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp")
 	public void newTaskTest(String taskname, String catValue, String progress, String description, String prvate)
 			throws InterruptedException {
+		click("task_XPATH");
+		driver.navigate().refresh();
 		click("newTask_XPATH");
-		Thread.sleep(5000);
-
 		type("taskname_XPATH", taskname);
 		select("category_XPATH", catValue);
 		type("progress_XPATH", progress);

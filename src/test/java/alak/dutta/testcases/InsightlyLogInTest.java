@@ -12,7 +12,7 @@ public class InsightlyLogInTest extends TestBase {
 		type("emailid_ID", userid);
 		type("pass_NAME", pass);
 		click("loginBtn_ID");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 	}
 }
