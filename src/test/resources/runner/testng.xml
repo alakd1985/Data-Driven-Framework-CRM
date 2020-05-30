@@ -3,10 +3,10 @@
 <suite name="Data Driven Framework">
 
 <listeners>
-	listener class-name = "org.uncommons.reportng.HTMLReporter"/>
-	listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>
-	listener class-name = "alak.dutta.listeners.CustomListeners"/>
-</listeners>
+
+		<listener class-name="alak.dutta.listeners.ExtentListeners" />
+
+	</listeners>
 
   <test name="Insightly Login Test">
     <classes>
@@ -16,7 +16,7 @@
   
    <test name="Contacts Test">
     <classes>
-          <class name="alak.dutta.testcases.Task.ContactsTest"/>
+          <class name="alak.dutta.testcases.ContactsTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -26,12 +26,11 @@
     </classes>
   </test> <!-- Test -->
   
-   <test name="Lead Test">
+   <test name="New Task Test">
     <classes>
-          <class name="alak.dutta.testcases.LeadTest"/>
+          <class name="alak.dutta.testcases.NewTaskTest"/>
     </classes>
   </test> <!-- Test -->
-  
   
  
    

@@ -20,11 +20,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
+import com.aventstack.extentreports.ExtentTest;
 
 import alak.dutta.utilities.ExcelReader;
-import alak.dutta.utilities.ExtentManager;
+
 
 public class TestBase {
 	public static WebDriver driver;
@@ -35,7 +35,7 @@ public class TestBase {
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
-	public ExtentReports reports = ExtentManager.getInstance();
+	//public ExtentReports reports = ExtentManager.getInstance();
 	public static ExtentTest test;
 
 	@BeforeSuite
@@ -110,12 +110,15 @@ public class TestBase {
 
 		else if (locator.endsWith("_NAME")) {
 			driver.findElement(By.name(or.getProperty(locator))).click();
+		} else if (locator.endsWith("_LINKTEXT")) {
+			driver.findElement(By.linkText(or.getProperty(locator))).click();
 		}
 
 	}
 
 	// Table Properties
 	static List<WebElement> row;
+
 	public void tab(String locator, String locator2) {
 		if (locator.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(or.getProperty(locator)));

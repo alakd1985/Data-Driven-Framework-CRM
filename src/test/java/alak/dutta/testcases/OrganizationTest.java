@@ -16,8 +16,9 @@ public class OrganizationTest extends TestBase {
 	}
 
 	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp", priority = 2)
-	public void organizationTest(String oraganization, String phone, String fax, String website, String linkdin,
-			String facebook, String twitter, String street, String city, String state, String postcode, String country,
+	public void organizationTest(String oraganization, String phone, String fax, 
+			String website, String linkdin,String facebook, String twitter, String street,
+			String city, String state, String postcode, String country,
 			String sstreet, String scity, String sstate, String spostcode, String scountry)
 			throws InterruptedException {
 
@@ -38,7 +39,7 @@ public class OrganizationTest extends TestBase {
 		type("shippingstate_XPATH", sstate);
 		type("shippingcode_XPATH", spostcode);
 		select("shippingcountry_XPATH", scountry);
-		click("cancelBtn_XPATH");
+		click("cancelBt_XPATH");
 		Thread.sleep(2000);
 
 	}

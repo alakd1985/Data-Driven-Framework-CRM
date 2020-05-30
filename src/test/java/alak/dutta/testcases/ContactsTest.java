@@ -1,9 +1,17 @@
-package alak.dutta.testcases.Task;
+package alak.dutta.testcases;
 
+import java.io.IOException;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import alak.dutta.base.TestBase;
-
+import alak.dutta.utilities.ReadExcel;
 import alak.dutta.utilities.TestUtil;
 
 public class ContactsTest extends TestBase {
@@ -17,7 +25,8 @@ public class ContactsTest extends TestBase {
 		Thread.sleep(3000);
 	}
 
-	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp",priority = 2)
+	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp", priority = 2)
+
 	public void contactsTest(String salutation, String fname, String lname, String title, String email, String phne,
 			String homephne, String mobilephone, String otherphone, String assitanntPhone, String assistantname,
 			String fax, String linkdin, String facebook, String twitter, String mailingadd, String mailingcity,
@@ -57,11 +66,26 @@ public class ContactsTest extends TestBase {
 		click("cancelBtn_XPATH");
 
 	}
-	
+
 	@Test(priority = 3)
-	public void contactTable()
-	{
-		//Table.tab("contactTable_ID", "contactRow");
+
+	public void checkProperty() {
+
+//		click("secondCheckbox_XPATH");
+//		Assert.assertEquals("edit_XPATH", "edit_XPATH");
+		click("fourth_XPATH");
+		click("close_XPATH");
+		driver.navigate().refresh();
+		WebElement element = driver.findElement(By.xpath(or.getProperty("contact_XPATH")));
+		Select s= new Select(element);
+		s.selectByVisibleText("Recently Viewed");
+
+	}
+
+	@Test(priority = 4)
+	public void contactTable() {
+
 		tab("contactTable_ID", "contactRow");
 	}
+
 }

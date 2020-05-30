@@ -1,4 +1,4 @@
-package alak.dutta.testcases.Task;
+package alak.dutta.testcases;
 
 import org.testng.annotations.Test;
 
