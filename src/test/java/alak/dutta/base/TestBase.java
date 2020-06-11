@@ -14,17 +14,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-
 import com.aventstack.extentreports.ExtentTest;
 
 import alak.dutta.utilities.ExcelReader;
-
 
 public class TestBase {
 	public static WebDriver driver;
@@ -35,7 +32,7 @@ public class TestBase {
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
-	//public ExtentReports reports = ExtentManager.getInstance();
+	// public ExtentReports reports = ExtentManager.getInstance();
 	public static ExtentTest test;
 
 	@BeforeSuite
@@ -124,36 +121,25 @@ public class TestBase {
 			driver.findElement(By.cssSelector(or.getProperty(locator)));
 			row = driver.findElements(By.tagName(or.getProperty(locator2)));
 
-			for (WebElement e : row) {
-				String actual = e.getText();
-				System.out.println(actual);
-			}
-
 		} else if (locator.endsWith("_XPATH")) {
 			driver.findElement(By.xpath(or.getProperty(locator)));
 			row = driver.findElements(By.tagName(or.getProperty(locator2)));
 
-			for (WebElement e : row) {
-				String actual = e.getText();
-				System.out.println(actual);
-			}
 		} else if (locator.endsWith("_NAME")) {
 			driver.findElement(By.name(or.getProperty(locator)));
 			row = driver.findElements(By.tagName(or.getProperty(locator2)));
 
-			for (WebElement e : row) {
-				String actual = e.getText();
-				System.out.println(actual);
-			}
 		} else if (locator.endsWith("_ID")) {
 			driver.findElement(By.id(or.getProperty(locator)));
 			row = driver.findElements(By.tagName(or.getProperty(locator2)));
 
-			for (WebElement e : row) {
-				String actual = e.getText();
-				System.out.println(actual);
-			}
 		}
+
+		for (WebElement e : row) {
+			String actual = e.getText();
+			System.out.println(actual);
+		}
+
 	}
 
 	// type Method
@@ -201,13 +187,13 @@ public class TestBase {
 		}
 	}
 
-	@AfterSuite
-	public void tearDown() {
-
-		if (driver != null) {
-			driver.quit();
-
-		}
-
-	}
+	
+	  @AfterSuite public void tearDown() {
+	  
+	  if (driver != null) { driver.quit();
+	  
+	  }
+	  
+	  }
+	 
 }

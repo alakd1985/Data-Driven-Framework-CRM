@@ -1,5 +1,7 @@
 package alak.dutta.testcases;
 
+import java.util.Hashtable;
+
 import org.testng.annotations.Test;
 
 import alak.dutta.base.TestBase;
@@ -18,17 +20,16 @@ public class OpportunityTest extends TestBase {
 	}
 
 	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp", priority = 2)
-	public void opportunityTest(String opname, String prob, String opValue, String bid, String bidtype,
-			String description, String pipeline, String stage) {
+	public void opportunityTest(Hashtable<String,String> data) {
 
-		type("Opporname_XPATH", opname);
-		type("winningProb_XPATH", prob);
-		select("opporvalue_XPATH", opValue);
-		type("bid_XPATH", bid);
-		select("bidtype_XPATH", bidtype);
-		type("description_XPATH", description);
-		select("pipeline_XPATH", pipeline);
-		type("stage_XPATH", stage);
+		type("Opporname_XPATH", data.get("name"));
+		type("winningProb_XPATH", data.get("probability"));
+		select("opporvalue_XPATH", data.get("op value"));
+		type("bid_XPATH", data.get("bid"));
+		select("bidtype_XPATH", data.get("bidtype"));
+		type("description_XPATH", data.get("description"));
+		select("pipeline_XPATH", data.get("pipeline"));
+		type("stage_XPATH", data.get("stage"));
 		click("cancel_XPATH");
 
 	}

@@ -14,9 +14,9 @@
     </classes>
   </test> <!-- Test -->
   
-   <test name="Contacts Test">
+  <test name="Lead Test">
     <classes>
-          <class name="alak.dutta.testcases.ContactsTest"/>
+          <class name="alak.dutta.testcases.LeadTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -26,11 +26,18 @@
     </classes>
   </test> <!-- Test -->
   
-   <test name="New Task Test">
+    <test name="Opportunity Test">
     <classes>
-          <class name="alak.dutta.testcases.NewTaskTest"/>
+          <class name="alak.dutta.testcases.OpportunityTest"/>
     </classes>
   </test> <!-- Test -->
+  
+   <test name="Cogmento LoginTest">
+    <classes>
+          <class name="alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+   
   
  
    

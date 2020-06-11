@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Framework]">
+  <listeners>
+    <listener class-name="alak.dutta.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Lead Test(failed)">
+    <classes>
+      <class name="alak.dutta.testcases.LeadTest">
+        <methods>
+          <include name="leadTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="leadHome"/>
+        </methods>
+      </class> <!-- alak.dutta.testcases.LeadTest -->
+    </classes>
+  </test> <!-- Lead Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Framework] -->
