@@ -2,10 +2,8 @@ package alak.dutta.testcases;
 
 import java.util.Hashtable;
 
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import alak.dutta.base.TestBase;
 import alak.dutta.utilities.TestUtil;
 
@@ -35,7 +33,6 @@ public class LeadTest extends TestBase {
 		type("lindustry_XPATH", data.get("industry"));
 		type("lemployeecount_XPATH", data.get("employee"));
 		select("lsource_XPATH", data.get("source"));
-		
 		type("laddress_XPATH", data.get("address"));
 		type("lcity_XPATH", data.get("mailling city"));
 		type("lstate_XPATH", data.get("mailing state"));

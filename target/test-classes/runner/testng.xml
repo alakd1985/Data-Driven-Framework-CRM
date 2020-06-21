@@ -6,31 +6,8 @@
 
 		<listener class-name="alak.dutta.listeners.ExtentListeners" />
 
-	</listeners>
+</listeners>
 
-  <test name="Insightly Login Test">
-    <classes>
-          <class name="alak.dutta.testcases.InsightlyLogInTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  <test name="Lead Test">
-    <classes>
-          <class name="alak.dutta.testcases.LeadTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  <test name="Organization Test">
-    <classes>
-          <class name="alak.dutta.testcases.OrganizationTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-    <test name="Opportunity Test">
-    <classes>
-          <class name="alak.dutta.testcases.OpportunityTest"/>
-    </classes>
-  </test> <!-- Test -->
   
    <test name="Cogmento LoginTest">
     <classes>
@@ -38,7 +15,19 @@
     </classes>
   </test> <!-- Test -->
    
-  
+   <test name="Cogmento contact test">
+    <classes>
+          <class name="alak.dutta.testcases.cogmentoCrm.contactTest"/>
+    </classes>
+  </test> <!-- Test -->
+   
+   
+   
+  <test name="Cogmento Calendertest">
+    <classes>
+          <class name="alak.dutta.testcases.cogmentoCrm.calenderTest"/>
+    </classes>
+  </test> <!-- Test -->
  
    
   

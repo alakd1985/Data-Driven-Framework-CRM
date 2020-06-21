@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="alak.dutta.listeners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Lead Test(failed)">
+  <test thread-count="5" name="Cogmento Calendertest(failed)">
     <classes>
-      <class name="alak.dutta.testcases.LeadTest">
+      <class name="alak.dutta.testcases.cogmentoCrm.calenderTest">
         <methods>
-          <include name="leadTest" invocation-numbers="0"/>
+          <include name="calendertest" invocation-numbers="0"/>
+          <include name="gotoCalenderPage"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="leadHome"/>
         </methods>
-      </class> <!-- alak.dutta.testcases.LeadTest -->
+      </class> <!-- alak.dutta.testcases.cogmentoCrm.calenderTest -->
     </classes>
-  </test> <!-- Lead Test(failed) -->
+  </test> <!-- Cogmento Calendertest(failed) -->
 </suite> <!-- Failed suite [Data Driven Framework] -->

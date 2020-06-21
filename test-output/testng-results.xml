@@ -1,101 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Data Driven Framework" duration-ms="57575" started-at="2020-06-11T17:20:48 EDT" finished-at="2020-06-11T17:21:46 EDT">
+  <suite name="Data Driven Framework" duration-ms="59960" started-at="2020-06-15T23:10:41 EDT" finished-at="2020-06-15T23:11:41 EDT">
     <groups>
     </groups>
-    <test name="Insightly Login Test" duration-ms="6141" started-at="2020-06-11T17:20:48 EDT" finished-at="2020-06-11T17:20:54 EDT">
-      <class name="alak.dutta.testcases.InsightlyLogInTest">
-        <test-method status="PASS" signature="insightlyLogInTest(java.util.Hashtable)[pri:0, instance:alak.dutta.testcases.InsightlyLogInTest@702b8b12]" name="insightlyLogInTest" duration-ms="6027" started-at="2020-06-11T17:20:48 EDT" data-provider="dp" finished-at="2020-06-11T17:20:54 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Toma*1996, username=leoalak@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- insightlyLogInTest -->
-      </class> <!-- alak.dutta.testcases.InsightlyLogInTest -->
-    </test> <!-- Insightly Login Test -->
-    <test name="Lead Test" duration-ms="6901" started-at="2020-06-11T17:20:55 EDT" finished-at="2020-06-11T17:21:02 EDT">
-      <class name="alak.dutta.testcases.LeadTest">
-        <test-method status="PASS" signature="leadHome()[pri:1, instance:alak.dutta.testcases.LeadTest@2053d869]" name="leadHome" duration-ms="4697" started-at="2020-06-11T17:20:55 EDT" finished-at="2020-06-11T17:21:00 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leadHome -->
-        <test-method status="PASS" signature="leadTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.LeadTest@2053d869]" name="leadTest" duration-ms="2165" started-at="2020-06-11T17:21:00 EDT" data-provider="dp" finished-at="2020-06-11T17:21:02 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{mailing country=Albania, mobile=1.708334899E9, website=www.nimai.com, address=duke st, industry=Self Business, Title=Hero, phone=2.02900876E8, lastname=Bond, employee=Rakesh, salutation=Mr., mailing state=virginia, Status=President, Organization=Federal, email=leoalak@gmail.com, source=Web, description=I am the lead of this team, mailling city=alexandria, firstname=James, fax=3.24569064E8, post code=22304.0}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leadTest -->
-      </class> <!-- alak.dutta.testcases.LeadTest -->
-    </test> <!-- Lead Test -->
-    <test name="Organization Test" duration-ms="30910" started-at="2020-06-11T17:21:02 EDT" finished-at="2020-06-11T17:21:33 EDT">
-      <class name="alak.dutta.testcases.OrganizationTest">
-        <test-method status="PASS" signature="doOrganization()[pri:1, instance:alak.dutta.testcases.OrganizationTest@73700b80]" name="doOrganization" duration-ms="21925" started-at="2020-06-11T17:21:02 EDT" finished-at="2020-06-11T17:21:24 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doOrganization -->
-        <test-method status="PASS" signature="organizationTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.OrganizationTest@73700b80]" name="organizationTest" duration-ms="4106" started-at="2020-06-11T17:21:24 EDT" data-provider="dp" finished-at="2020-06-11T17:21:28 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{state=virginia, website=www.website.com, twitter=www.twitter.com, street=morning view lane , country=Albania, fax=5432.0, Organization name=Self, facebook=www.facebook.com, sstate=virginia, scity=alexandria, city=alexandria, scountry=Albania, postcode=12345.0, phone=123456.0, spcode=12345.0, billing=duke st, linkdin=www.linkdin.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- organizationTest -->
-        <test-method status="PASS" signature="organizationTable()[pri:3, instance:alak.dutta.testcases.OrganizationTest@73700b80]" name="organizationTable" duration-ms="4852" started-at="2020-06-11T17:21:28 EDT" finished-at="2020-06-11T17:21:33 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- organizationTable -->
-      </class> <!-- alak.dutta.testcases.OrganizationTest -->
-    </test> <!-- Organization Test -->
-    <test name="Opportunity Test" duration-ms="8194" started-at="2020-06-11T17:21:33 EDT" finished-at="2020-06-11T17:21:41 EDT">
-      <class name="alak.dutta.testcases.OpportunityTest">
-        <test-method status="PASS" signature="opportunityHome()[pri:1, instance:alak.dutta.testcases.OpportunityTest@63a12c68]" name="opportunityHome" duration-ms="5061" started-at="2020-06-11T17:21:33 EDT" finished-at="2020-06-11T17:21:38 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opportunityHome -->
-        <test-method status="PASS" signature="opportunityTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.OpportunityTest@63a12c68]" name="opportunityTest" duration-ms="1703" started-at="2020-06-11T17:21:38 EDT" data-provider="dp" finished-at="2020-06-11T17:21:40 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{stage=Nothing Selected, pipeline=Opportunity Pipeline, bid=10000.0, name=Pulak, description=We must bid to win this one, op value=USD $, bidtype=Per Day, probability=fifty}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- opportunityTest -->
-        <test-method status="PASS" signature="tablePrint()[pri:3, instance:alak.dutta.testcases.OpportunityTest@63a12c68]" name="tablePrint" duration-ms="1413" started-at="2020-06-11T17:21:40 EDT" finished-at="2020-06-11T17:21:41 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tablePrint -->
-      </class> <!-- alak.dutta.testcases.OpportunityTest -->
-    </test> <!-- Opportunity Test -->
-    <test name="Cogmento LoginTest" duration-ms="4391" started-at="2020-06-11T17:21:42 EDT" finished-at="2020-06-11T17:21:46 EDT">
+    <test name="Cogmento LoginTest" duration-ms="9296" started-at="2020-06-15T23:10:41 EDT" finished-at="2020-06-15T23:10:50 EDT">
       <class name="alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@78123e82]" name="setUp" is-config="true" duration-ms="6049" started-at="2020-06-11T17:20:42 EDT" finished-at="2020-06-11T17:20:48 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@78123e82]" name="doNavigate" duration-ms="2744" started-at="2020-06-11T17:21:42 EDT" finished-at="2020-06-11T17:21:44 EDT">
+        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@48974e45]" name="doNavigate" duration-ms="7331" started-at="2020-06-15T23:10:41 EDT" finished-at="2020-06-15T23:10:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigate -->
-        <test-method status="PASS" signature="cogmentologinTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@78123e82]" name="cogmentologinTest" duration-ms="1641" started-at="2020-06-11T17:21:44 EDT" data-provider="dp" finished-at="2020-06-11T17:21:46 EDT">
+        <test-method status="PASS" signature="cogmentologinTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@48974e45]" name="cogmentologinTest" duration-ms="1834" started-at="2020-06-15T23:10:48 EDT" data-provider="dp" finished-at="2020-06-15T23:10:50 EDT">
           <params>
             <param index="0">
               <value>
@@ -108,5 +24,51 @@
         </test-method> <!-- cogmentologinTest -->
       </class> <!-- alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest -->
     </test> <!-- Cogmento LoginTest -->
+    <test name="Cogmento contact test" duration-ms="28555" started-at="2020-06-15T23:10:51 EDT" finished-at="2020-06-15T23:11:20 EDT">
+      <class name="alak.dutta.testcases.cogmentoCrm.contactTest">
+        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.contactTest@49c7b90e]" name="doNavigate" duration-ms="6700" started-at="2020-06-15T23:10:51 EDT" finished-at="2020-06-15T23:10:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doNavigate -->
+        <test-method status="PASS" signature="contacttest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.contactTest@49c7b90e]" name="contacttest" duration-ms="21819" started-at="2020-06-15T23:10:58 EDT" data-provider="dp" finished-at="2020-06-15T23:11:20 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{state=VA, MiddleName=Kanti, city=Alexandria, LastName=Das, email=pulak.dental@gmail.com, company=Iskcon, zipcode=22304.0, FirstName=Pulak, address=5335 Duke St, description=Hello How are you, business email=pulak.dental@dentalpoint.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacttest -->
+      </class> <!-- alak.dutta.testcases.cogmentoCrm.contactTest -->
+    </test> <!-- Cogmento contact test -->
+    <test name="Cogmento Calendertest" duration-ms="20557" started-at="2020-06-15T23:11:20 EDT" finished-at="2020-06-15T23:11:41 EDT">
+      <class name="alak.dutta.testcases.cogmentoCrm.calenderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="setUp" is-config="true" duration-ms="15605" started-at="2020-06-15T23:10:25 EDT" finished-at="2020-06-15T23:10:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gotoCalenderPage()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="gotoCalenderPage" duration-ms="12725" started-at="2020-06-15T23:11:20 EDT" finished-at="2020-06-15T23:11:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoCalenderPage -->
+        <test-method status="PASS" signature="calendertest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="calendertest" duration-ms="7820" started-at="2020-06-15T23:11:33 EDT" data-provider="dp" finished-at="2020-06-15T23:11:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alertBefore=1 Hour, category=Private, task=Difficult, deal=100 percent, participants=Alak & Toma, reminder=20/06/2020 20:00, identifier=Hashtag, company=Accenture, title=Mr., alertvia=SMS, location=Alexandria, description=This is the first Event, case=Not yet}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calendertest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="tearDown" is-config="true" duration-ms="2894" started-at="2020-06-15T23:11:41 EDT" finished-at="2020-06-15T23:11:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alak.dutta.testcases.cogmentoCrm.calenderTest -->
+    </test> <!-- Cogmento Calendertest -->
   </suite> <!-- Data Driven Framework -->
 </testng-results>
