@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Data Driven Framework" duration-ms="59960" started-at="2020-06-15T23:10:41 EDT" finished-at="2020-06-15T23:11:41 EDT">
+  <suite name="Data Driven Framework" duration-ms="29315" started-at="2020-09-03T15:16:05 EDT" finished-at="2020-09-03T15:16:35 EDT">
     <groups>
     </groups>
-    <test name="Cogmento LoginTest" duration-ms="9296" started-at="2020-06-15T23:10:41 EDT" finished-at="2020-06-15T23:10:50 EDT">
+    <test name="Cogmento LoginTest" duration-ms="4106" started-at="2020-09-03T15:16:05 EDT" finished-at="2020-09-03T15:16:09 EDT">
       <class name="alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest">
-        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@48974e45]" name="doNavigate" duration-ms="7331" started-at="2020-06-15T23:10:41 EDT" finished-at="2020-06-15T23:10:48 EDT">
+        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@193f604a]" name="doNavigate" duration-ms="2405" started-at="2020-09-03T15:16:05 EDT" finished-at="2020-09-03T15:16:08 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigate -->
-        <test-method status="PASS" signature="cogmentologinTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@48974e45]" name="cogmentologinTest" duration-ms="1834" started-at="2020-06-15T23:10:48 EDT" data-provider="dp" finished-at="2020-06-15T23:10:50 EDT">
+        <test-method status="PASS" signature="cogmentologinTest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest@193f604a]" name="cogmentologinTest" duration-ms="1579" started-at="2020-09-03T15:16:08 EDT" data-provider="dp" finished-at="2020-09-03T15:16:09 EDT">
           <params>
             <param index="0">
               <value>
@@ -24,13 +24,13 @@
         </test-method> <!-- cogmentologinTest -->
       </class> <!-- alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest -->
     </test> <!-- Cogmento LoginTest -->
-    <test name="Cogmento contact test" duration-ms="28555" started-at="2020-06-15T23:10:51 EDT" finished-at="2020-06-15T23:11:20 EDT">
+    <test name="Cogmento contact test" duration-ms="10954" started-at="2020-09-03T15:16:10 EDT" finished-at="2020-09-03T15:16:21 EDT">
       <class name="alak.dutta.testcases.cogmentoCrm.contactTest">
-        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.contactTest@49c7b90e]" name="doNavigate" duration-ms="6700" started-at="2020-06-15T23:10:51 EDT" finished-at="2020-06-15T23:10:58 EDT">
+        <test-method status="PASS" signature="doNavigate()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.contactTest@5403f35f]" name="doNavigate" duration-ms="3527" started-at="2020-09-03T15:16:10 EDT" finished-at="2020-09-03T15:16:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doNavigate -->
-        <test-method status="PASS" signature="contacttest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.contactTest@49c7b90e]" name="contacttest" duration-ms="21819" started-at="2020-06-15T23:10:58 EDT" data-provider="dp" finished-at="2020-06-15T23:11:20 EDT">
+        <test-method status="PASS" signature="contacttest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.contactTest@5403f35f]" name="contacttest" duration-ms="7332" started-at="2020-09-03T15:16:14 EDT" data-provider="dp" finished-at="2020-09-03T15:16:21 EDT">
           <params>
             <param index="0">
               <value>
@@ -43,17 +43,17 @@
         </test-method> <!-- contacttest -->
       </class> <!-- alak.dutta.testcases.cogmentoCrm.contactTest -->
     </test> <!-- Cogmento contact test -->
-    <test name="Cogmento Calendertest" duration-ms="20557" started-at="2020-06-15T23:11:20 EDT" finished-at="2020-06-15T23:11:41 EDT">
+    <test name="Cogmento Calendertest" duration-ms="13515" started-at="2020-09-03T15:16:21 EDT" finished-at="2020-09-03T15:16:35 EDT">
       <class name="alak.dutta.testcases.cogmentoCrm.calenderTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="setUp" is-config="true" duration-ms="15605" started-at="2020-06-15T23:10:25 EDT" finished-at="2020-06-15T23:10:41 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@6d4e5011]" name="setUp" is-config="true" duration-ms="7399" started-at="2020-09-03T15:15:58 EDT" finished-at="2020-09-03T15:16:05 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="gotoCalenderPage()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="gotoCalenderPage" duration-ms="12725" started-at="2020-06-15T23:11:20 EDT" finished-at="2020-06-15T23:11:33 EDT">
+        <test-method status="PASS" signature="gotoCalenderPage()[pri:1, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@6d4e5011]" name="gotoCalenderPage" duration-ms="9061" started-at="2020-09-03T15:16:21 EDT" finished-at="2020-09-03T15:16:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoCalenderPage -->
-        <test-method status="PASS" signature="calendertest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="calendertest" duration-ms="7820" started-at="2020-06-15T23:11:33 EDT" data-provider="dp" finished-at="2020-06-15T23:11:41 EDT">
+        <test-method status="PASS" signature="calendertest(java.util.Hashtable)[pri:2, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@6d4e5011]" name="calendertest" duration-ms="4435" started-at="2020-09-03T15:16:30 EDT" data-provider="dp" finished-at="2020-09-03T15:16:35 EDT">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calendertest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@7e5afaa6]" name="tearDown" is-config="true" duration-ms="2894" started-at="2020-06-15T23:11:41 EDT" finished-at="2020-06-15T23:11:44 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:alak.dutta.testcases.cogmentoCrm.calenderTest@6d4e5011]" name="tearDown" is-config="true" duration-ms="1328" started-at="2020-09-03T15:16:35 EDT" finished-at="2020-09-03T15:16:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
