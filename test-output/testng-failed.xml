@@ -4,6 +4,29 @@
   <listeners>
     <listener class-name="alak.dutta.listeners.ExtentListeners"/>
   </listeners>
+  <test thread-count="5" name="Cogmento LoginTest(failed)">
+    <classes>
+      <class name="alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest">
+        <methods>
+          <include name="cogmentologinTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- alak.dutta.testcases.cogmentoCrm.cogmentoLoginTest -->
+    </classes>
+  </test> <!-- Cogmento LoginTest(failed) -->
+  <test thread-count="5" name="Cogmento contact test(failed)">
+    <classes>
+      <class name="alak.dutta.testcases.cogmentoCrm.contactTest">
+        <methods>
+          <include name="doNavigate"/>
+          <include name="contacttest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- alak.dutta.testcases.cogmentoCrm.contactTest -->
+    </classes>
+  </test> <!-- Cogmento contact test(failed) -->
   <test thread-count="5" name="Cogmento Calendertest(failed)">
     <classes>
       <class name="alak.dutta.testcases.cogmentoCrm.calenderTest">
